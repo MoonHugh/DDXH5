@@ -1,0 +1,37 @@
+*{ margin: 0; padding: 0; }
+html,body{width:100%; height:100%; color:#2e2e2e; font-size: 62.5%; font-family: "微软雅黑";}
+a{text-decoration:none;-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-ms-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;}
+ul,li{list-style-type:none;}
+img{ display: block;}
+.fix{*zoom:1;}
+.fix:after{content:""; display:block; clear:both;}
+.fl{ float: left;}
+.fr{ float: right;}
+.hide{ display: none;}
+
+.map_page{ width: 100%; height: 7.55rem;margin-bottom: 1.58rem; padding-top:5.66rem; background: url("../image/index/img_bg_map.png")no-repeat; background-size: 100%;}
+.address{ width: 4.84rem; height: 3.52rem; margin:0 auto; background: url("../image/index/pop_bg.png")no-repeat; background-size: 100% 100%;}
+.address_txt{ font-size: 0.26rem; padding: 0.36rem 0 0.32rem; color: #fff; text-align: center;}
+.phoneImg{ padding: 0.5rem 0 0.48rem 0.42rem; width: 0.2rem; height: 0.21rem; }
+.contact_box p{ padding: 0.52rem 1.06rem 0.46rem 0.06rem; font-size: 0.18rem; line-height: 0.18rem; color: #353535;}
+.contact_box div{ width:1.17rem; height:0.2rem; padding:0.18rem 0; margin: 0.33rem 0 0.27rem; border:1px solid #f13178; border-radius: 0.08rem; font-size: 0.2rem; text-align: center; line-height: 0.2rem; color:#f13178; }
+.addressImg{ width:0.15rem; height: 0.21rem; padding:0.06rem 0.06rem 0 0.46rem;}
+.address_box p{ width: 3.5rem; font-size: 0.18rem; line-height: 0.3rem; color: #353535;}
+.address_circle{ width: 0.26rem; height: 0.26rem; margin: -0.28rem auto 0;}
+.address_name{ width: 1.72rem; height: 0.29rem; margin: 0.04rem auto;}
+.copyright{ width: 6.22rem; margin: 2.44rem auto 0; font-size: 0.2rem; text-align: center; line-height: 0.3rem; padding: 0.06rem 0; color: #626c78; background: #fff; border-radius: 0.1rem;}
+.copyright span{ color: #f13178;}
+
+.mask{ position:absolute; left:0; top:0; width: 100%; height: 5.89rem; background:rgba(0,0,0,0.6); z-index: 999;}
+.nav_box{ position:absolute; left:0; top:0;width: 100%; background: rgba(255,255,255,0.8); z-index: 1000;}
+.nav_logo{ width: 1rem; height: 0.58rem; padding: 0.3rem 0 0.45rem 0.3rem;}
+.close{ width: 0.44rem; height: 0.4rem; padding: 0.42rem 0.35rem 0 0;}
+.navbar{ width: 6.9rem; margin: 0 auto; border-top: 1px solid rgba(245,245,245,0.53);}
+.navbar li{ width:6.32rem; margin:0 auto; font-size: 0.24rem;}
+.navbar li a{ display: block; padding:0.4rem 0; color: #333;}
+.navbar li+li{ border-top: 1px solid rgba(245,245,245,0.53);}
+.navbar li span{ font-size: 0.2rem; color: #666;}
+
+.bottom_box{ width: 100%; position: fixed; left: 0; bottom:0; background: rgba(0,0,0,0.2);}
+.bottombar{ width: 5.74rem; height: 1.58rem; margin: 0 auto;}
+.bottombar img{ width: 2.4rem; height: 0.88rem; padding-top: 0.35rem;}

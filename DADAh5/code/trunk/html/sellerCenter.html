@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商业合作</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<link rel="stylesheet" href="../css/swiper.min.css"/>
+		<link rel="stylesheet" href="../css/public.css" />
+    	<link rel="stylesheet" href="../css/sellerCenter.css" />
+		<script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    	<script type="text/javascript" src="../js/swiper.jquery.min.js"></script>
+    	<script type="text/javascript" src="../js/adaptation.js"></script>
+	</head>
+	<body>
+		<div class="main_box">
+			<header class="fix">
+				<img src="../image/index/top_logo.png" class="logobar fl"/>
+				<img src="../image/sellerCenter/menu.png" class="menu fr"/>
+			</header>
+			<div class="f1">
+				<a href=""></a>
+			</div>
+			<!-- <div class="f2">
+				<img  src="../image/sellerCenter/img_brand_01.png" />
+				<img  src="../image/sellerCenter/img_brand_02.png" />
+				<img  src="../image/sellerCenter/img_brand_03.png" />
+			</div> -->
+			<div class="map_page">
+				<div class="address">
+					<p class="address_txt">深圳市&nbsp;前海新体验科技&nbsp;有限公司</p>
+					<div class="contact_box fix">
+						<img src="../image/index/phone.png" class="phoneImg fl"/>
+						<p class="fl">400-112-0330</p>
+						<div class="fl">拨打</div>
+					</div>
+					<div class="address_box fix">
+						<img src="../image/index/address.png" class="addressImg fl"/>
+						<p class="fl">深圳市南山区南新路1024号阳光科创中心B栋18楼</p>
+					</div>
+				</div>
+				<img src="../image/index/tab.png" class="address_circle"/>
+				<img src="../image/index/add.png" class="address_name"/>
+				<p class="copyright">Copyright&nbsp;©&nbsp;<span>2017&nbsp;Dada&nbsp;Show</span>，All&nbsp;Rights&nbsp;Reserved 粤ICP备17073833号-1</p>
+			</div>
+		</div>
+		<div id="mask"></div>
+		<div class="nav_box hide">
+			<div class="navTopbar fix">
+				<img src="../image/index/top_logo.png" class="nav_logo fl"/>
+				<img src="../image/index/guanbi.png" class="close fr"/>
+			</div>
+			<ul class="navbar">
+				<li><a href="../index.html">首页&nbsp;<span>/&nbsp;Home</span></a></li>
+				<li><a href="../html/productPresentation.html">产品介绍&nbsp;<span>/&nbsp;Product Presentation</span></a></li>
+				<li><a href="../html/sellerCenter.html">商业合作&nbsp;<span>/&nbsp;Commercial Cooperation</span></a></li>
+				<li><a href="../html/aboutus.html">了解我们&nbsp;<span>/&nbsp;About Us</span></a></li>
+			</ul>
+		</div>
+		<div class="bottom_box">
+			<div class="bottombar fix">
+				<img src="../image/index/ios-down.png" class="ios_download fl"/>
+				<img src="../image/index/android-down.png" class="andro_download fr"/>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+    $(".menu").click(function () {
+        $(".nav_box").removeClass("hide");
+        $("#mask").addClass("mask");
+    });
+    $(".close").click(function () {
+        $(".nav_box").addClass("hide");
+        $("#mask").removeClass("mask");
+    });
+</script>

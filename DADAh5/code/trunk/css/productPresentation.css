@@ -1,0 +1,78 @@
+.content{ background: url(../image/productPresentation/img_bg_DadaAPP_01.png) no-repeat top center; background-size: 7.5rem 11.19rem; }
+
+.logobar{ width: 1rem; height: 0.58rem; padding: 0.3rem 0 0 0.3rem; }
+.menu{ width:0.44rem; height: 0.4rem; padding:0.39rem 0.3rem 0 0; }
+
+.introduce{ padding-top: 2rem; }
+.bannertxt{ margin: 0 auto; width: 6.44rem; height: 2.75rem; }
+.Phone{ margin: 1.2rem auto 0; width: 5.08rem; height: 7.18rem; }
+
+.virtualHouse{ padding-top: 0.3rem; height: 11.76rem; position: relative; }
+.vhMid{ padding-top: 0.94rem; }
+.vhMidimg{ margin: 0 auto; width: 6.62rem; height: 7.37rem; }
+.vhMid ul{ margin: 0.43rem auto 0; width: 5rem; }
+.vhMid li{ float: left; width: 0.8rem; height: 0.8rem; line-height: 0.8rem; text-align: center; font-size: 0.24rem; color: #333; background: url(../image/productPresentation/line_rim.png) no-repeat; background-size: 100% 100%; }
+.vhMid li+li{ margin-left: 0.6rem; }
+
+.fittingRoom{ padding-top: 1.61rem; height: 11.73rem; background: #fff7fb; position: relative; }
+.frMid{ margin-top: 1.4rem; height: 6.57rem; background: url(../image/productPresentation/img_fitting.png) no-repeat center; background-size: 6.57rem 100%; position: relative; }
+.icobg{ width: 0.91rem; height: 1.33rem; position: absolute; left: 1.18rem; top: 1.9rem; }
+.icofitting{ width: 0.91rem; height: 1.32rem; position: absolute; left: 5.5rem; top: 4.28rem; }
+.icoimage{ width: 0.92rem; height: 1.37rem; position: absolute; left: 2.29rem; top: 5.14rem; }
+.icolist{ width: 0.93rem; height: 1.36rem; position: absolute; left: 4.76rem; top: 1.04rem; }
+
+.petRoom{ padding-top: 1.7rem; height: 11.64rem; background: #fff; position: relative; }
+.prMid{ margin-top: 1.58rem; height: 6.45rem; background: url(../image/productPresentation/img_pet.png) no-repeat center; background-size: 7.02rem 100%; position: relative; }
+.icodongzuo{ width: 1.27rem; height: 1.27rem; position: absolute; left: 2.55rem; top: 0.39rem; }
+.icofood{ width: 1.27rem; height: 1.27rem; position: absolute; left: 4.98rem; top: 3.94rem; }
+.icohuanyi{ width: 1.27rem; height: 1.27rem; position: absolute; left: 5.01rem; top: 1.51rem; }
+.icoliaotian{ width: 1.27rem; height: 1.27rem; position: absolute; left: 2.21rem; top: 4.58rem; }
+.icoxizao{ width: 1.27rem; height: 1.27rem; position: absolute; left: 0.89rem; top: 2.42rem; }
+
+.DIYRoom{ padding-top: 1.72rem; height: 11.62rem; background: #fff7fb; position: relative; }
+.drMid{ margin-top: 0.91rem; height: 6.57rem; background: url(../image/productPresentation/img_DIY.png) no-repeat center; background-size: 6.57rem 100%; position: relative; }
+.belt{ width: 0.7rem; height: 0.7rem; position: absolute; left: 5.79rem; top: 3.31rem; }
+.brooch{ width: 0.7rem; height: 0.7rem; position: absolute; left: 4.78rem; top: 6rem; }
+.coller{ width: 0.7rem; height: 0.7rem; position: absolute; left: 4.8rem; top: 1.02rem; }
+.colour{ width: 0.7rem; height: 0.7rem; position: absolute; left: 2rem; top: -0.07rem; }
+.model{ width: 0.7rem; height: 0.7rem; position: absolute; left: 1.08rem; top: 2.32rem; }
+.sleeve{ width: 0.7rem; height: 0.7rem; position: absolute; left: 2.55rem; top: 4.45rem; }
+
+.rowTitle{ text-align: center; color: #282528; }
+.rowTitle span{ display: block; padding-top: 0.48rem; line-height: 0.22rem; font-size: 0.22rem; }
+.rowTitle1 p{ line-height: 0.48rem; font-size: 0.48rem; }
+.rowTitle2 p{ line-height: 0.36rem; font-size: 0.36rem; }
+
+.botTxt{ line-height: 0.2rem; font-size: 0.2rem; color: #999; position: absolute; left: 2.38rem; bottom: 0.5rem; }
+
+/*点击变大*/
+.big01{ -webkit-animation-name: fadeIn01; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn01 { 0% { width: 0.91rem; height: 1.33rem; position: absolute; left: 1.18rem; top: 1.9rem; } 50% { width: 1.11rem; height: 1.53rem; position: absolute; left: 1.08rem; top: 1.8rem; } 100% { width: 0.91rem; height: 1.33rem; position: absolute; left: 1.18rem; top: 1.9rem; } }
+.big02{ -webkit-animation-name: fadeIn02; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn02 { 0% { width: 0.91rem; height: 1.32rem; position: absolute; left: 5.5rem; top: 4.28rem; } 50% { width: 1.11rem; height: 1.52rem; position: absolute; left: 5.4rem; top: 4.18rem; } 100% { width: 0.91rem; height: 1.32rem; position: absolute; left: 5.5rem; top: 4.28rem; } }
+.big03{ -webkit-animation-name: fadeIn03; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn03 { 0% { width: 0.92rem; height: 1.37rem; position: absolute; left: 2.29rem; top: 5.14rem; } 50% { width: 1.12rem; height: 1.57rem; position: absolute; left: 2.19rem; top: 5.04rem; } 100% { width: 0.92rem; height: 1.37rem; position: absolute; left: 2.29rem; top: 5.14rem; } }
+.big04{ -webkit-animation-name: fadeIn04; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn04 { 0% { width: 0.93rem; height: 1.36rem; position: absolute; left: 4.76rem; top: 1.04rem; } 50% { width: 1.13rem; height: 1.56rem; position: absolute; left: 4.66rem; top: 0.94rem; } 100% { width: 0.93rem; height: 1.36rem; position: absolute; left: 4.76rem; top: 1.04rem; } }
+.big05{ -webkit-animation-name: fadeIn05; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn05 { 0% { width: 1.27rem; height: 1.27rem; position: absolute; left: 2.55rem; top: 0.39rem; } 50% { width: 1.47rem; height: 1.47rem; position: absolute; left: 2.45rem; top: 0.29rem; } 100% { width: 1.27rem; height: 1.27rem; position: absolute; left: 2.55rem; top: 0.39rem; } }
+.big06{ -webkit-animation-name: fadeIn06; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn06 { 0% { width: 1.27rem; height: 1.27rem; position: absolute; left: 4.98rem; top: 3.94rem; } 50% { width: 1.47rem; height: 1.47rem; position: absolute; left: 4.88rem; top: 3.84rem; } 100% { width: 1.27rem; height: 1.27rem; position: absolute; left: 4.98rem; top: 3.94rem; } }
+.big07{ -webkit-animation-name: fadeIn07; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn07 { 0% { width: 1.27rem; height: 1.27rem; position: absolute; left: 5.01rem; top: 1.51rem; } 50% { width: 1.47rem; height: 1.47rem; position: absolute; left: 4.91rem; top: 1.41rem; } 100% { width: 1.27rem; height: 1.27rem; position: absolute; left: 5.01rem; top: 1.51rem; } }
+.big08{ -webkit-animation-name: fadeIn08; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn08 { 0% { width: 1.27rem; height: 1.27rem; position: absolute; left: 2.21rem; top: 4.58rem; } 50% { width: 1.47rem; height: 1.47rem; position: absolute; left: 2.11rem; top: 4.48rem; } 100% { width: 1.27rem; height: 1.27rem; position: absolute; left: 2.21rem; top: 4.58rem; } }
+.big09{ -webkit-animation-name: fadeIn09; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn09 { 0% { width: 1.27rem; height: 1.27rem; position: absolute; left: 0.89rem; top: 2.42rem; } 50% { width: 1.47rem; height: 1.47rem; position: absolute; left: 0.79rem; top: 2.32rem; } 100% { width: 1.27rem; height: 1.27rem; position: absolute; left: 0.89rem; top: 2.42rem; } }
+.big10{ -webkit-animation-name: fadeIn10; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn10 { 0% { width: 0.7rem; height: 0.7rem; position: absolute; left: 5.79rem; top: 3.31rem; } 50% { width: 0.9rem; height: 0.9rem; position: absolute; left: 5.69rem; top: 3.21rem; } 100% { width: 0.7rem; height: 0.7rem; position: absolute; left: 5.79rem; top: 3.31rem; } }
+.big11{ -webkit-animation-name: fadeIn11; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn11 { 0% { width: 0.7rem; height: 0.7rem; position: absolute; left: 4.78rem; top: 6rem; } 50% { width: 0.9rem; height: 0.9rem; position: absolute; left: 4.68rem; top: 5.9rem; } 100% { width: 0.7rem; height: 0.7rem; position: absolute; left: 4.78rem; top: 6rem; } }
+.big12{ -webkit-animation-name: fadeIn12; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn12 { 0% { width: 0.7rem; height: 0.7rem; position: absolute; left: 4.8rem; top: 1.02rem; } 50% { width: 0.9rem; height: 0.9rem; position: absolute; left: 4.7rem; top: 0.92rem; } 100% { width: 0.7rem; height: 0.7rem; position: absolute; left: 4.8rem; top: 1.02rem; } }
+.big13{ -webkit-animation-name: fadeIn13; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn13 { 0% { width: 0.7rem; height: 0.7rem; position: absolute; left: 2rem; top: -0.07rem; } 50% { width: 0.9rem; height: 0.9rem; position: absolute; left: 1.9rem; top: -0.17rem; } 100% { width: 0.7rem; height: 0.7rem; position: absolute; left: 2rem; top: -0.07rem; } }
+.big14{ -webkit-animation-name: fadeIn14; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn14 { 0% { width: 0.7rem; height: 0.7rem; position: absolute; left: 1.08rem; top: 2.32rem; } 50% { width: 0.9rem; height: 0.9rem; position: absolute; left: 0.98rem; top: 2.22rem; } 100% { width: 0.7rem; height: 0.7rem; position: absolute; left: 1.08rem; top: 2.32rem; } }
+.big15{ -webkit-animation-name: fadeIn15; -webkit-animation-duration: 0.5s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 0s; }
+@-webkit-keyframes fadeIn15 { 0% { width: 0.7rem; height: 0.7rem; position: absolute; left: 2.55rem; top: 4.45rem; } 50% { width: 0.9rem; height: 0.9rem; position: absolute; left: 2.45rem; top: 4.35rem; } 100% { width: 0.7rem; height: 0.7rem; position: absolute; left: 2.55rem; top: 4.45rem; } }
